@@ -1,0 +1,14 @@
+Own Light update - valid checkout contact and secure CMS session
+
+Website:
+- Checkout now requires at least one valid customer contact method.
+- Customer can submit checkout with either a valid phone number or a valid email address.
+- Invalid optional contact values are not sent when the other contact method is valid.
+- Phone and email are checked before the order is submitted to the CMS.
+
+CMS / Backend:
+- Orders API now rejects checkout submissions unless name, address, cart items, and at least one valid contact method are provided.
+- Invalid phone/email values are removed before the order is saved.
+- CMS login no longer stores the CMS session token in localStorage or sessionStorage after login.
+- Backend now sets a secure HttpOnly CMS session cookie after successful login.
+- CMS logout clears the secure session cookie.

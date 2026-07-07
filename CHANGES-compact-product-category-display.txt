@@ -1,0 +1,15 @@
+Compact product/category display update
+
+Website changes:
+- Reduced the Product Categories / Products page hero height and title size.
+- Changed category listing grids to a compact 4-column desktop layout.
+- Reduced category tile image height from 320px to about 220px on desktop.
+- Reduced product card image height from 360px to about 250px on desktop.
+- Added responsive 2-column compact grids on tablets and 1-column on phones.
+- Reduced product detail gallery height from 650px to about 480px on desktop.
+- Changed product detail main image to object-fit: contain so clothing photos are not heavily cropped.
+- Reduced card padding, button size, filters, and thumbnail size for a cleaner shop layout.
+
+Files changed:
+- assets/css/style.css
+- assets/js/app.js

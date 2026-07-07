@@ -1,0 +1,7 @@
+Small photo box display update
+
+- Product and category images are now compact boxes across homepage, product list, category list, and detail pages.
+- Product cards now use auto-fill grids so more photos fit on one screen.
+- Product detail clicked image is constrained to a smaller gallery box.
+- Website reads CMS display settings from settings.display and applies CSS variables.
+- CMS can control photo heights, detail width, thumbnail height, card minimum widths, and crop style.

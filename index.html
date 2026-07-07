@@ -1,0 +1,68 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Own Light - Boutique Catalogue</title>
+  <meta name="description" content="A boutique catalogue with categories, products, offers, and inquiry options.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@500;600;700&family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <div id="topbar" class="topbar">Loading content...</div>
+  <header class="site-header">
+    <div class="container nav">
+      <a class="brand" href="#home" data-site-name>Own Light</a>
+      <nav class="menu" data-menu>
+        <a href="#home">Home</a>
+        <a href="#categories">Categories</a>
+        <a href="#products">Products</a>
+        <a href="#blogs">Blogs</a>
+        <a href="#inquiry">Inquiry</a>
+        <a href="#cart" class="cart-link">Cart <span data-cart-count>0</span></a>
+        <a href="#contact">Contact</a>
+      </nav>
+      <div class="nav-actions">
+        <a class="btn btn-outline" data-instagram-nav href="#contact" hidden>Instagram</a>
+        <a class="btn btn-outline" data-whatsapp-nav target="_blank" rel="noopener">WhatsApp</a>
+        <button class="mobile-toggle" data-menu-toggle aria-label="Open menu">☰</button>
+      </div>
+    </div>
+  </header>
+
+  <main id="app">
+    <section class="page-hero"><div class="container page-title"><span class="eyebrow">Loading</span><h1>Please wait</h1><p>The website is loading the latest content.</p></div></section>
+  </main>
+
+  <footer class="footer">
+    <div class="container">
+      <div class="footer-grid">
+        <div>
+          <h3 data-site-name>Own Light</h3>
+          <p data-footer-text>Browse our latest boutique products and offers.</p>
+        </div>
+        <div>
+          <h4>Shop</h4>
+          <p><a href="#categories">Categories</a></p>
+          <p><a href="#products">All Products</a></p>
+          <p><a href="#blogs">Blogs</a></p>
+          <p><a href="#inquiry">Send Inquiry</a></p>
+        </div>
+        <div>
+          <h4>Contact</h4>
+          <p data-footer-whatsapp>WhatsApp</p>
+          <p><a data-instagram-footer href="#contact" target="_blank" rel="noopener" hidden>Instagram</a></p>
+          <p><a href="#contact">Contact Form</a></p>
+        </div>
+      </div>
+      <div class="copyright">© <span id="year"></span> <span data-site-name>Own Light</span>. All rights reserved.</div>
+    </div>
+  </footer>
+  <a class="floating-whatsapp" data-whatsapp-float target="_blank" rel="noopener" aria-label="Chat on WhatsApp">WA</a>
+
+  <script src="config.js"></script>
+  <script src="assets/js/app.js" defer></script>
+</body>
+</html>

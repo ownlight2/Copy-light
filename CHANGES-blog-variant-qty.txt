@@ -1,0 +1,9 @@
+Own Light blog and variant quantity fix
+--------------------------------------
+- Added Blogs link to website navigation and footer.
+- Added public #blogs listing page and #blog/<slug> detail pages.
+- Added Latest Blogs section on homepage.
+- Website now loads blogs from the CMS /api/blogs endpoint.
+- Product detail page can show selected size/colour sold and available quantity from CMS variant rows.
+- Product cards with size/colour choices now ask customers to choose options before adding to cart.
+- Confirmed old SHREE brand text is not present in website files.

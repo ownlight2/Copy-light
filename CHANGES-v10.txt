@@ -1,0 +1,21 @@
+v10 changes
+===========
+
+Website package changes:
+- Shows CMS-managed product video/social/location/other URL buttons under product photos.
+- Shows compact media-link buttons on product cards when links exist.
+- Sends anonymous product tracking events to the Netlify CMS API: product views, inquiry clicks, WhatsApp inquiry clicks, inquiry-page opens, and inquiry submits.
+- Keeps GitHub Pages static hosting safe: no PHP, no server-only files, no admin tokens.
+
+Before hosting:
+1. Deploy the CMS package to Netlify.
+2. Copy your Netlify API URL, for example https://your-site.netlify.app/api.
+3. Paste it into config.js as CONTENT_API_BASE.
+4. Push this website folder to GitHub Pages.
+
+Own Light cart/purchase update
+- Brand fallback changed to Own Light.
+- Added Add to Cart buttons on product cards and product detail pages.
+- Added Cart / Checkout page with quantity controls and customer detail form.
+- Added quantity sold display for each product when CMS/API provides sold_qty.
+- Added CMS-driven theme colour variables and extra font variables.
